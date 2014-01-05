@@ -7,3 +7,7 @@ install:
   - python setup.py install
 script:
   - python -m unittest discover -s tests
+branches:
+  only:
+    - issue-61-python33-support
+    - issue-61-travis-test
